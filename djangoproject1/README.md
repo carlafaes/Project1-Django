@@ -23,3 +23,13 @@ podemos ver los valores segun su id
 
 podemos ver los valores segun el nombre de la propiedad
 >Projects.objects.get(name='pruebaNombre')
+
+podemos realizar una busqueda
+>Project.objects.filter(name__startswith="prueba")
+se busca segun si hay una coincidencia en las primera parte del nombre
+
+Otra manera de acceder a realizar una busqueda seria guardando los objetos del modelo en una variable
+>p= Project.objects 
+
+realizamos la misma busqueda accediendo a la variable
+>p.filter(name__startwith="prueba")
