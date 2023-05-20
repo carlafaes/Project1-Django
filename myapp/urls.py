@@ -1,5 +1,5 @@
 from django.urls import path
-from myapp import views
+from myapp import views ##Se importan las vistas de la carpeta myapp
 
 
 urlpatterns=[

@@ -33,3 +33,4 @@ Otra manera de acceder a realizar una busqueda seria guardando los objetos del m
 
 realizamos la misma busqueda accediendo a la variable
 >p.filter(name__startwith="prueba")
+
